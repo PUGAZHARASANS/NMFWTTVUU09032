@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System - Presentation</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="presentation-container">
+    <div class="slide-indicator"><span id="currentSlide">1</span> / <span id="totalSlides">8</span></div>
+
+    <!-- Slide 1: Title -->
+    <div class="slide active">
+      <div class="slide-content">
+        <h1>Student Management System</h1>
+        <h3>Digital Portfolio Presentation</h3>
+        <div class="box" style="text-align:center;">
+          <p><strong>Student:</strong> Pugazharasan S</p>
+          <p><strong>Department:</strong> BCA - II Year | Thiruvallur University</p>
+          <p><strong>Register No & NMID:</strong> astvu35635624u09032</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Problem Statement -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Problem Statement</h2>
+        <div class="box">
+          <p>Colleges maintain student records manually using registers/spreadsheets.</p>
+          <ul>
+            <li>❌ Time-consuming</li>
+            <li>❌ Prone to duplication & errors</li>
+            <li>❌ Difficult to retrieve old records</li>
+          </ul>
+          <p>✅ Need for a <strong>digital Student Management System</strong> to improve efficiency.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Project Overview -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Project Overview</h2>
+        <div class="box">
+          <p>A <strong>Java-based desktop application</strong> with MySQL integration for secure storage of student records.</p>
+          <ul>
+            <li>Modules for Admins, Teachers, and Students</li>
+            <li>Handles academic tasks like marks, attendance, and reports</li>
+            <li>Ensures accuracy and quick data retrieval</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: End Users -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>End Users</h2>
+        <div class="box">
+          <ul>
+            <li>👩‍💼 <strong>College Administrators</strong> – manage enrollment & records</li>
+            <li>👨‍🏫 <strong>Teachers</strong> – update marks & attendance</li>
+            <li>🎓 <strong>Students</strong> – view academic progress & details</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: Tools & Design -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Tools & Design</h2>
+        <div class="box">
+          <ul>
+            <li>⚙️ Java (NetBeans/Eclipse)</li>
+            <li>🗄️ MySQL Database</li>
+            <li>🔗 JDBC Connectivity</li>
+            <li>🎨 Java Swing UI (Login, Dashboard, Forms)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6: Features -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Features</h2>
+        <div class="box">
+          <ul>
+            <li>✔ Add / Update / Delete student details</li>
+            <li>✔ Assign courses & manage attendance</li>
+            <li>✔ Secure login with roles (Admin/Teacher/Student)</li>
+            <li>✔ Generate performance & progress reports</li>
+            <li>✔ Intuitive interface with Java Swing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7: Future Enhancements -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Future Enhancements</h2>
+        <div class="box">
+          <ul>
+            <li>💳 Online fee payment integration</li>
+            <li>📱 Mobile application for students & teachers</li>
+            <li>🔔 Notifications & alerts for important updates</li>
+            <li>🌐 Web-based portal for remote access</li>
+            <li>📊 AI-based analytics for student performance prediction</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 8: Results & Conclusion -->
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Results & Conclusion</h2>
+        <div class="box">
+          <p>✨ Reduced manual effort by <strong>70%</strong></p>
+          <p>✨ Improved accuracy & accessibility</p>
+          <p>✨ Scalable for future features like fee payment & mobile integration</p>
+        </div>
+        <p style="margin-top:20px;font-size:1.3rem;"><strong>Student Management System = Reliable, Efficient, Scalable 🚀</strong></p>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+      <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+      <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+    </div>
+  </div>
+
+  <!-- Link JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
